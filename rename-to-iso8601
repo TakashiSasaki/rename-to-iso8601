@@ -1,0 +1,5 @@
+#!/bin/sh
+y=`date --iso-8601=ns -r $1`
+mv $1 $y
+
+
